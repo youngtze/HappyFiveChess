@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#666"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢乐五子棋游戏说明" 
+        android:textSize="25sp"
+        android:layout_marginTop="62dip"
+        
+        />
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="step1.点击开始游戏按钮" 
+        android:textSize="15sp"
+        android:layout_marginTop="55dip"
+        />
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="step2.允许蓝牙权限请求" 
+        android:textSize="15sp"
+        android:layout_marginTop="20dip"
+        />
+     
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="step3.点击菜单键寻找玩家" 
+        android:textSize="15sp"
+        android:layout_marginTop="20dip"
+        />
+      
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="step4.选择对手，开始下棋" 
+        android:textSize="15sp"
+        android:layout_marginTop="20dip"
+        />
+    
+        
+        <Button
+            android:layout_width="200dip"
+            android:layout_height="40dip" 
+            android:layout_marginTop="80dip"
+            android:background="#555"
+            android:text="开始游戏"
+             android:textSize="25sp"
+            android:onClick="onClick_start"
+            />
+        
+           <Button
+            android:layout_width="200dip"
+            android:layout_height="40dip" 
+            android:layout_marginTop="30dip"
+            android:background="#555"
+            android:text="退出游戏"
+            android:textSize="25sp"
+            android:onClick="onClick_end"
+            />
+    
+    
+       
+
+</LinearLayout>
+
